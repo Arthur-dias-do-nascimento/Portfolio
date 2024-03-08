@@ -1,0 +1,95 @@
+main .container-habilidades {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container-habilidades .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main .container-habilidades .content header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container-habilidades .content header span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--cl_00);
+    text-indent: 15px;
+    letter-spacing: 4px;
+}
+
+main .container-habilidades .content header h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: var(--cl_01);
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+
+main .container-habilidades .content header p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--cl_01);
+    text-align: center;
+}
+
+main .container-habilidades .content ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+main .container-habilidades .content ul li {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cl_04);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+main .container-habilidades .content ul li:hover {
+    & .info {
+        opacity: 1;
+    }
+}
+
+main .container-habilidades .content ul li .icon i {
+    font-size: 3.5rem;
+    color: var(--cl_00);
+}
+
+main .container-habilidades .content ul li .info {
+    position: absolute;
+    top: 90%;
+    background-color: var(--cl_00);
+    padding: 5px 8px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: 300ms all ease;
+}
+
+main .container-habilidades .content ul li .info span {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--cl_03);
+}

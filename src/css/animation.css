@@ -1,0 +1,9 @@
+@keyframes slide_link_animation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

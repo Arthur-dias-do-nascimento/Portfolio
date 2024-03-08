@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+    main .container-inicio {
+        flex-direction: column;
+    }
+
+    main .container-inicio .content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .container-inicio .content h1 {
+        text-indent: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    header nav ul {
+        display: none;
+    }
+
+    header nav .mobile-menu-icon {
+        display: block;
+    }
+
+    .active {
+        display: block !important;
+    }
+}
