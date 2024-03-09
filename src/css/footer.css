@@ -17,6 +17,7 @@ footer .container p {
     font-weight: 400;
     letter-spacing: 3px;
     color: var(--cl_02);
+    text-align: center;
 }
 
 footer .container p > .icon {

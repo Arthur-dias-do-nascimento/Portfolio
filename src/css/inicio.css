@@ -26,6 +26,7 @@ main .container-inicio .content p {
     font-size: 1.1rem;
     font-weight: 400;
     color: var(--cl_01);
+    text-align: center;
 }
 
 main .container-inicio .container-img {

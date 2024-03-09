@@ -9,7 +9,7 @@
     }
 
     main .container-inicio .content h1 {
-        text-indent: 0px;
+        text-indent: 0px !important;
         text-align: center;
     }
 }
@@ -25,5 +25,9 @@
 
     .active {
         display: block !important;
+    }
+
+    main section h1 {
+        text-align: center;
     }
 }
