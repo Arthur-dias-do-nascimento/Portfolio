@@ -86,7 +86,6 @@ header .mobile-menu.active ul {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-block: 10px;
 }
 
 header .mobile-menu.active ul .nav-item a {

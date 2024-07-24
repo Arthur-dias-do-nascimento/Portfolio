@@ -67,12 +67,6 @@ main .container-habilidades .content ul li {
     position: relative;
 }
 
-main .container-habilidades .content ul li:hover {
-    & .info {
-        opacity: 1;
-    }
-}
-
 main .container-habilidades .content ul li .icon i {
     font-size: 3.5rem;
     color: var(--cl_00);
@@ -84,8 +78,6 @@ main .container-habilidades .content ul li .info {
     background-color: var(--cl_00);
     padding: 5px 8px;
     border-radius: 3px;
-    opacity: 0;
-    transition: 300ms all ease;
 }
 
 main .container-habilidades .content ul li .info span {
