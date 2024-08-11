@@ -1,5 +1,5 @@
 # Portfolio
-Um portfólio que fala sobre minhas experiências, mim, projetos e contatos.
+Meu portfolio que fala sobre mim, minhas experiências, linguagens que uso e meus contatos sociais.
 
 ## Linguagens utilizadas
 
@@ -9,5 +9,5 @@ Um portfólio que fala sobre minhas experiências, mim, projetos e contatos.
  <li>JavaScript</li>
 </ul>
 
-## Link
-https://arthur-dias-do-nascimento.github.io/Portfolio/.
+## URL do Projeto
+<strong>https://arthur-dias-do-nascimento.github.io/Portfolio/.</strong>
